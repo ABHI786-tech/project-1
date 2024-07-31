@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deep@ gym</title>
+    <!-- <link rel="stylesheet" href="nav.css"> -->
+    <style>
+        /* css reset  */
+        body {
+            font-family: cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;           
+            background: url('img/man.1.2.jpg');
+        }
+
+        .left {
+            top: 24px;
+            left: 48px;
+            position: absolute;
+            display: inline-block;
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            margin: auto 20px;
+            width: 45px;
+            height: 45px;
+            margin-top: -9px;
+        }
+
+        .left div {
+            line-height: 19px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .mid {
+            width: 46%;
+            margin: 25px auto;
+            display: block;
+            /* border: 2px solid green; */
+
+        }
+
+        .right {
+            top: 26px;
+            right: 53px;
+            position: absolute;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            padding: 16px;
+            position: fixed;
+        }
+
+        .navbar {
+            display: inline-block;
+            position: sticky;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+           
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 16px 32px;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .navbar li a:active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 0px 11px;
+            background: transparent;
+            color: white;
+            font-weight: bold;
+            font-family: cursive;
+            margin: 0px 11px;
+            cursor: pointer;
+            border: 2px solid grey;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+.container{
+    border: 3px solid white;
+    width: 33%;
+    margin: 183px 201px;
+    padding: 35px;
+    border-radius: 30px;
+}
+
+.form input{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    width: 407px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 11px;
+}
+.container h1{
+    text-align: center;
+}
+.container .btn{
+    display: block;
+    width: 94%;
+    margin: auto;
+}
+header{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.85;
+    z-index: 1;
+    top: 0px;
+    height: 89px;
+    width: 100%;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/gymlogo.png" alt="">
+            <div>BORN SANTE</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">policy</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>JOIN US NOW </h1>
+        <form action="abhi.php">
+            <div class="form">
+                <input type="text" name="#" placeholder="enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="#" placeholder="enter your age">
+            </div>
+            <div class="form">
+                <input type="text" name="#" placeholder="enter your gender">
+            </div>
+            <div class="form">
+                <input type="text" name="#" placeholder="enter your contact">
+            </div>
+            <div class="form">
+                <input type="text" name="#" placeholder="enter your email addresss">
+            </div>
+            <button class="btn">submit now</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
